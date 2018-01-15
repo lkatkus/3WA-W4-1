@@ -1,0 +1,15 @@
+td{
+    width: 30px;
+    text-align: center;
+}
+
+tr:first-of-type{
+    color: white;
+    background-color: grey;
+}
+
+
+td:first-of-type{
+    color: white;
+    background-color: grey;
+}

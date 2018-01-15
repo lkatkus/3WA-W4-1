@@ -6,12 +6,15 @@
         <script type="text/javascript" src="script2.js"></script>
     </head>
     <!-- onload loads start() when body is finished loading -->
-    <body onload="start();">
+    <body onload="start2();" onmousemove="judejimas(event)">
         <p>para1</p>
         <p>para2</p>
         <h1>h1</h1>
         <h2>h2-1</h2>
         <h2>h2-2</h2>
+        <div onmousemove="judejimas(event)" style="width:200px; height:200px; background-color:red">
+
+        </div>
 
         <!-- if script is described in <head> then body is not created yet. -->
         <!-- <script type="text/javascript" src="script2.js"></script> -->
