@@ -54,7 +54,7 @@ let car1 = {
     break: br
 }
 
-car2 = {
+let car2 = {
     g:"Lada",
     speed: 0,
     accelerate: accelerate,
