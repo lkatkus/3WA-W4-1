@@ -38,3 +38,27 @@ let m = {
 function test(){
         this.speed += 5; /* "this" is contextual variable */
 }
+
+let accelerate = function(){
+    this.speed += 5; /* contextual function */
+}
+
+let br = function(){
+    this.speed -= 5;
+}
+
+let car1 = {
+    g:"Mazda",
+    speed: 0,
+    accelerate: accelerate,
+    break: br
+}
+
+car2 = {
+    g:"Lada",
+    speed: 0,
+    accelerate: accelerate,
+    break: br
+}
+
+accelerate(); /* no context is provided, so the value is added to the global object "window" for browsers. In node global object - global*/
