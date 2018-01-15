@@ -13,3 +13,17 @@ td:first-of-type{
     color: white;
     background-color: grey;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+.grey{
+    background-color: #b3b3b3;
+    color: #a3a3a3;
+}
+
+.red{
+    color: white;
+    font-weight: bold;
+}
